@@ -28,6 +28,12 @@
   color: #61dafb;
 }
 
+.style {
+  font-family: cursive, sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
