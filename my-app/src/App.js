@@ -17,7 +17,7 @@ function App() {
 
         <section id="hero">
           <h2>My Hero Section</h2>
-          <img src="me.JPG" alt="Hero" width="300" height="400" />
+          <img src="../src/me.JPG" alt="Hero" width="300" height="400" />
           <p>
             I'm interested in learning new programming languages and skills<br />
             🌱 I'm currently learning Frontend engineering, Backend engineering, Computer Networks, and Software Design<br />
