@@ -17,7 +17,7 @@ function App() {
 
         <section id="hero">
           <h2>My Hero Section</h2>
-          <img src="my-app/src/me.JPG" alt="Hero" width="300" height="400" />
+          <img src="/me.JPG" alt="Hero" width="300" height="400" />
           <p>
             I'm interested in learning new programming languages and skills<br />
             🌱 I'm currently learning Frontend engineering, Backend engineering, Computer Networks, and Software Design<br />
@@ -49,7 +49,7 @@ function App() {
         <section id="tools">
           <h2>Tools</h2>
           <p>HTML, CSS, Javascript, TypeScript, React, Java, Node.js, Express.js, AWS</p>
-          <img src="techstack-img.png" alt="Tech Stack" width="800" height="300" />
+          <img src="/techstack-img.png" alt="Tech Stack" width="800" height="300" />
         </section>
 
         <section id="projects">
