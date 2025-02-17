@@ -1,4 +1,5 @@
-import logo from './cloud.png';
+import tech from './techstack-img.png';
+import me from './me.JPG';
 import './App.css';
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
         <h1>Brandy Nguyen</h1>
         <nav>
           <ul>
-            <li><a href="#hero">My Hero</a></li>
+            <li><a href="#hero">About Me</a></li>
             <li><a href="#tools">Tools</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact Me</a></li>
@@ -16,8 +17,8 @@ function App() {
         </nav>
 
         <section id="hero">
-          <h2>My Hero Section</h2>
-          <img src="/me.JPG" alt="Hero" width="300" height="400" />
+          <h2>About Me</h2>
+          <img src={me}alt="me" width="300" height="400" />
           <p>
             I'm interested in learning new programming languages and skills<br />
             🌱 I'm currently learning Frontend engineering, Backend engineering, Computer Networks, and Software Design<br />
@@ -49,7 +50,7 @@ function App() {
         <section id="tools">
           <h2>Tools</h2>
           <p>HTML, CSS, Javascript, TypeScript, React, Java, Node.js, Express.js, AWS</p>
-          <img src="/techstack-img.png" alt="Tech Stack" width="800" height="300" />
+          <img src={tech} alt="Tech Stack" width="800" height="300" />
         </section>
 
         <section id="projects">
