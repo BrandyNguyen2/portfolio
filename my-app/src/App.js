@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Brandy Nguyen</h1>
+        <h1 style="">Brandy Nguyen</h1>
         <nav>
           <ul>
             <li><a href="#hero">About Me</a></li>
@@ -56,26 +56,26 @@ function App() {
         <section id="projects">
           <h2>Projects</h2>
           <div>
-            <h3>Fitbit analysis system</h3>
-            <p>Azure Databricks, Delta Lake, Lakehouse, PySpark, Kafka, Python, Java, SQL</p>
-            <p>A real-time fitness tracker in Azure Cloud services monitors heart rate, leveraging Kafka for real-time data tracking</p>
+            <h3>Code Red</h3>
+            <p>TypeScript, Phaser.js, Colyseus, HTML, CSS</p>
+            <p>Disc:</p>
           </div>
           <div>
-            <h3>Active Online Learning to Differentiate Social Media Posts</h3>
-            <p>Python, Machine Learning, Django</p>
-            <p>Social media application that filters posts to identify whether it is a hate comment. If it is a hate comment, the post gets deleted, and the user gets reported.</p>
+            <h3>Smell You Later</h3>
+            <p>React Native, TypeScript, Python, FastAPI, Google Gemini</p>
+            <p>Disc:</p>
           </div>
           <div>
-            <h3>Near By Stores & Services</h3>
-            <p>Node, Express, MongoDB, React</p>
-            <p>Web application that help people discover if a product is at a nearby store. We can also locate stores close to the user's current location and available products at that store.</p>
+            <h3>Kanban Board</h3>
+            <p>React, Flask, MongoDB, AWS</p>
+            <p>Disc:</p>
           </div>
         </section>
 
         <footer id="contact">
           <h2>Contact Me</h2>
           <p><b>Email</b></p>
-          <p><a href="mailto:Brandy.Nguyen02@csu.fullerton.edu">Brandy.Nguyen02@csu.fullerton.edu</a></p>
+          <p><a href="mailto:Brandy.Nguyen02@yahoo.com">Brandy.Nguyen02@yahoo.com</a></p>
           <ul>
             <li><a href="https://www.linkedin.com/in/brandynguyen02/">LinkedIn</a></li>
             <li><a href="https://github.com/BrandyNguyen2">GitHub</a></li>
