@@ -49,7 +49,7 @@ function App() {
 
         <section id="tools">
           <h2>Tools</h2>
-          <p>HTML, CSS, Javascript, TypeScript, React, Java, Node.js, Express.js, AWS</p>
+          <p>HTML, CSS, Javascript, TypeScript, React, Java, Node.js, AWS</p>
           <img src={tech} alt="Tech Stack" width="800" height="300" />
         </section>
 
@@ -58,17 +58,17 @@ function App() {
           <div>
             <h3>Code Red</h3>
             <p>TypeScript, Phaser.js, Colyseus, HTML, CSS</p>
-            <p>Disc:</p>
+            <p>Description:</p>
           </div>
           <div>
             <h3>Smell You Later</h3>
             <p>React Native, TypeScript, Python, FastAPI, Google Gemini</p>
-            <p>Disc:</p>
+            <p>Description:</p>
           </div>
           <div>
             <h3>Kanban Board</h3>
             <p>React, Flask, MongoDB, AWS</p>
-            <p>Disc:</p>
+            <p>Description:</p>
           </div>
         </section>
 
