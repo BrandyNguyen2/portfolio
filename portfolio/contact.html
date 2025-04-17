@@ -150,7 +150,6 @@
   <script>
     document.getElementById('currentYear').textContent = new Date().getFullYear();
     
-    // Form submission handling
     document.getElementById('contactForm').addEventListener('submit', function(e) {
       e.preventDefault();
       
@@ -160,19 +159,14 @@
       const subject = document.getElementById('subject').value;
       const message = document.getElementById('message').value;
       
-      // Change button text to show loading
       submitButton.textContent = 'Sending...';
       submitButton.disabled = true;
       
-      // Simulate form submission with timeout
       setTimeout(() => {
-        // Show success message
         alert('Thanks for your message! I\'ll get back to you soon.');
         
-        // Reset form
         document.getElementById('contactForm').reset();
         
-        // Reset button
         submitButton.textContent = 'Send Message';
         submitButton.disabled = false;
       }, 1500);
