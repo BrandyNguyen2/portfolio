@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects | Brandy Nguyen</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+  <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+  <header class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <i data-feather="code"></i>
+        <span>Brandy Nguyen</span>
+      </a>
+      
+      <nav class="nav-desktop">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="projects.html" class="nav-link active">Projects</a>
+        <a href="skills.html" class="nav-link">Skills</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+      
+      <div class="nav-right">
+        <a href="resume.pdf" target="_blank" class="btn btn-outline">Resume</a>
+        <button class="btn-menu" id="menuToggle">
+          <i data-feather="menu"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <nav class="nav-mobile">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="about.html" class="nav-link">About</a>
+      <a href="projects.html" class="nav-link active">Projects</a>
+      <a href="skills.html" class="nav-link">Skills</a>
+      <a href="contact.html" class="nav-link">Contact</a>
+      <a href="resume.pdf" target="_blank" class="btn btn-outline">Resume</a>
+    </nav>
+  </div>
+
+  <main>
+    <section class="projects-section">
+      <div class="container">
+        <h1>My Projects</h1>
+        <p class="section-intro">
+          Here are some of the projects I've worked on. Each project represents different skills and technologies I've mastered.
+        </p>
+        
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-image">
+              <img src="https://via.placeholder.com/600x300" alt="Code Red">
+            </div>
+            <div class="project-content">
+              <h2>Code Red</h2>
+              <p>A web-based, multiplayer icebreaker activity.</p>
+              <div class="project-tags">
+                <span class="tag">Phaser.js</span>
+                <span class="tag">Colyseus</span>
+                <span class="tag">TypeScript</span>
+                <span class="tag">Svelte</span>
+              </div>
+              <div class="project-links">
+                <a href="https://codered-snowy.vercel.app/" target="_blank" class="btn btn-sm">
+                  <i data-feather="external-link"></i> Live Demo
+                </a>
+                <a href="https://github.com/johncmanuel/codered" target="_blank" class="btn btn-sm">
+                  <i data-feather="github"></i> Code
+                </a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="project-card">
+            <div class="project-image">
+              <img src="https://via.placeholder.com/600x300" alt="Memora">
+            </div>
+            <div class="project-content">
+              <h2>Memora App</h2>
+              <p>A productivity app that helps users organize tasks with features like drag-and-drop, filters, and reminders.</p>
+              <div class="project-tags">
+                <span class="tag">Next.js</span>
+                <span class="tag">TypeScript</span>
+                <span class="tag">Tailwind CSS</span>
+                <span class="tag">Prisma</span>
+              </div>
+              <div class="project-links">
+                <a href="https://example.com" target="_blank" class="btn btn-sm">
+                  <i data-feather="external-link"></i> Live Demo
+                </a>
+                <a href="https://github.com" target="_blank" class="btn btn-sm">
+                  <i data-feather="github"></i> Code
+                </a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="project-card">
+            <div class="project-image">
+              <img src="https://via.placeholder.com/600x300" alt="AI Spam Email Checker">
+            </div>
+            <div class="project-content">
+              <h2>A.I. Spam & Phishing Email Detector</h2>
+              <p>An A.I. bot that can detect and mark malicious emails as spam or phishing from user's email inbox.</p>
+              <div class="project-tags">
+                <span class="tag">Python</span>
+                <span class="tag">Pandas</span>
+                <span class="tag">Machine Learning</span>
+              </div>
+              <div class="project-links">
+                <a href="https://example.com" target="_blank" class="btn btn-sm">
+                  <i data-feather="external-link"></i> Live Demo
+                </a>
+                <a href="https://github.com/BrandyNguyen2/A.I.-Spam-Phishing-Email-Detector" target="_blank" class="btn btn-sm">
+                  <i data-feather="github"></i> Code
+                </a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="project-card">
+            <div class="project-image">
+              <img src="https://via.placeholder.com/600x300" alt="Smell You Later">
+            </div>
+            <div class="project-content">
+              <h2>Smell You Later</h2>
+              <p>A personal portfolio website showcasing my skills, projects, and professional experience.</p>
+              <div class="project-tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a href="https://example.com" target="_blank" class="btn btn-sm">
+                  <i data-feather="external-link"></i> Live Demo
+                </a>
+                <a href="https://github.com" target="_blank" class="btn btn-sm">
+                  <i data-feather="github"></i> Code
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© <span id="currentYear"></span> Brandy Nguyen. All rights reserved.</p>
+      <p>Built with HTML, CSS, and JavaScript</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+

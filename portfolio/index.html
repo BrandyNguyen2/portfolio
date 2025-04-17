@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brandy Nguyen | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+  <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+  <header class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <i data-feather="code"></i>
+        <span>Brandy Nguyen</span>
+      </a>
+      
+      <nav class="nav-desktop">
+        <a href="index.html" class="nav-link active">Home</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="projects.html" class="nav-link">Projects</a>
+        <a href="skills.html" class="nav-link">Skills</a>
+        <a href="contact.html" class="nav-link">Contact</a>
+      </nav>
+      
+      <div class="nav-right">
+        <a href="resume.pdf" target="_blank" class="btn btn-outline">Resume</a>
+        <button class="btn-menu" id="menuToggle">
+          <i data-feather="menu"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <nav class="nav-mobile">
+      <a href="index.html" class="nav-link active">Home</a>
+      <a href="about.html" class="nav-link">About</a>
+      <a href="projects.html" class="nav-link">Projects</a>
+      <a href="skills.html" class="nav-link">Skills</a>
+      <a href="contact.html" class="nav-link">Contact</a>
+      <a href="resume.pdf" target="_blank" class="btn btn-outline">Resume</a>
+    </nav>
+  </div>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1>Hi, I'm <span class="text-primary">Brandy!</span></h1>
+            <p>A passionate web developer specializing in creating beautiful and functional websites with modern technologies.</p>
+            <div class="hero-buttons">
+              <a href="projects.html" class="btn btn-primary">
+                View My Work
+                <i data-feather="arrow-right"></i>
+              </a>
+              <a href="contact.html" class="btn btn-outline">Contact Me</a>
+            </div>
+            <div class="social-links">
+              <a href="https://github.com/BrandyNguyen2" target="_blank" class="social-link">
+                <i data-feather="github"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/brandynguyen02/" target="_blank" class="social-link">
+                <i data-feather="linkedin"></i>
+              </a>
+              <a href="mailto:brandy.nguyen02@yahoo.com" class="social-link">
+                <i data-feather="mail"></i>
+              </a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <img src="profphoto.jpg" alt="Profile" class="profile-image">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© <span id="currentYear"></span> Brandy Nguyen. All rights reserved.</p>
+      <p>Built with HTML, CSS, and JavaScript</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    // Set current year in footer
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
