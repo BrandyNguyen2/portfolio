@@ -151,7 +151,6 @@
     document.getElementById('currentYear').textContent = new Date().getFullYear();
     
     document.getElementById('contactForm').addEventListener('submit', function(e) {
-<<<<<<< Updated upstream
       e.preventDefault();
       
       const submitButton = document.getElementById('submitButton');
@@ -171,11 +170,6 @@
         submitButton.textContent = 'Send Message';
         submitButton.disabled = false;
       }, 1500);
-=======
-        const submitButton = document.getElementById('submitButton');
-        submitButton.textContent = 'Sending...';
-        submitButton.disabled = true;
->>>>>>> Stashed changes
     });
   </script>
 </body>
